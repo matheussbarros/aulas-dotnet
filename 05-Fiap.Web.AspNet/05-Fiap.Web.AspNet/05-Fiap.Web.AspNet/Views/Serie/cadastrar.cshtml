@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "cadastro";
+}
+@model Serie
+<h1>cadastro</h1>
+
+<form class="form" asp-action="Cadastrar" asp-controller="Serie">
+    <div class="form-group">
+        <label asp-for="Nome"></label>
+        <input  class="form-control" asp-for="Nome" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Tipo"></label>
+        <select class="form-control" asp-for="Tipo" asp-items="@Html.GetEnumSelectList<Genero>()">
+            <option>Selecione</option>
+            
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="DataLancamento"></label>
+        <input type="date" class="form-control" asp-for="DataLancamento" />
+    </div>
+   
+    <div class="form-group">
+        <label asp-for="Temporadas"></label>
+        <input class="form-control" asp-for="Temporadas" />
+    </div>
+
+    <div class="form-group">
+        <button class="btn btn-primary" type="submit">Cadastrar</button>
+        <a asp-controller="Serie" asp-action="Listar" class="btn btn-primary" type="submit">Listar</a>
+
+
+
+    </div>
+
+</form>
+

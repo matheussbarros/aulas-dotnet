@@ -1,0 +1,11 @@
+E:\FIAP-TDS\2ANO\c#\01-Fiap.HelloWorld\01-Fiap.UI.HelloWorld\bin\Debug\netcoreapp2.2\01-Fiap.UI.HelloWorld.deps.json
+E:\FIAP-TDS\2ANO\c#\01-Fiap.HelloWorld\01-Fiap.UI.HelloWorld\bin\Debug\netcoreapp2.2\01-Fiap.UI.HelloWorld.runtimeconfig.json
+E:\FIAP-TDS\2ANO\c#\01-Fiap.HelloWorld\01-Fiap.UI.HelloWorld\bin\Debug\netcoreapp2.2\01-Fiap.UI.HelloWorld.runtimeconfig.dev.json
+E:\FIAP-TDS\2ANO\c#\01-Fiap.HelloWorld\01-Fiap.UI.HelloWorld\bin\Debug\netcoreapp2.2\01-Fiap.UI.HelloWorld.dll
+E:\FIAP-TDS\2ANO\c#\01-Fiap.HelloWorld\01-Fiap.UI.HelloWorld\bin\Debug\netcoreapp2.2\01-Fiap.UI.HelloWorld.pdb
+E:\FIAP-TDS\2ANO\c#\01-Fiap.HelloWorld\01-Fiap.UI.HelloWorld\obj\Debug\netcoreapp2.2\01-Fiap.UI.HelloWorld.csprojAssemblyReference.cache
+E:\FIAP-TDS\2ANO\c#\01-Fiap.HelloWorld\01-Fiap.UI.HelloWorld\obj\Debug\netcoreapp2.2\01-Fiap.UI.HelloWorld.csproj.CoreCompileInputs.cache
+E:\FIAP-TDS\2ANO\c#\01-Fiap.HelloWorld\01-Fiap.UI.HelloWorld\obj\Debug\netcoreapp2.2\01-Fiap.UI.HelloWorld.AssemblyInfoInputs.cache
+E:\FIAP-TDS\2ANO\c#\01-Fiap.HelloWorld\01-Fiap.UI.HelloWorld\obj\Debug\netcoreapp2.2\01-Fiap.UI.HelloWorld.AssemblyInfo.cs
+E:\FIAP-TDS\2ANO\c#\01-Fiap.HelloWorld\01-Fiap.UI.HelloWorld\obj\Debug\netcoreapp2.2\01-Fiap.UI.HelloWorld.dll
+E:\FIAP-TDS\2ANO\c#\01-Fiap.HelloWorld\01-Fiap.UI.HelloWorld\obj\Debug\netcoreapp2.2\01-Fiap.UI.HelloWorld.pdb
