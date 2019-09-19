@@ -10,12 +10,11 @@
 
 <h1>Listar</h1>
 
-@if (TempData["msg"] != null)
-{
-    
-}
 
 <mensagem texto="@TempData["msg"]"></mensagem>
+
+
+
 
 <table class="table">
     <tr>
@@ -23,6 +22,8 @@
         <th>Temporada</th>
         <th>Tipo</th>
         <th>Data Lançamento</th>
+        <th></th>
+        <th></th>
     </tr>
     @foreach (var item in Model)
     {
@@ -31,10 +32,37 @@
             <td>@item.Temporadas</td>
             <td>@item.Tipo</td>
             <td>@item.DataLancamento.ToShortDateString()</td>
+            <td><a asp-action="editar" asp-route-id="@item.SerieId">Editar</a></td>
+            <td><a onclick="cod.value = @item.SerieId"  data-toggle="modal" data-target="#modalExemplo">Excluir</a></td>
         </tr>
     }
 
 </table>
 
 
+
+<!-- Modal -->
+<div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Mensagem</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Deseja realmente exluir</p>
+            </div>
+
+            <form class="form" asp-action="excluir"  method="post">
+                <div class="modal-footer">
+                    <input id="cod" name="id" type="hidden"/>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">cancelar</button>
+                    <button type="submit" class="btn btn-primary">Confirmar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 

@@ -1,0 +1,20 @@
+﻿@model  Condominio
+
+<div class="form-group">
+    <label asp-for="Nome"></label>
+    <input class="form-control" asp-for="Nome" />
+</div>
+<div class="form-group">
+    <label asp-for="Blocos"></label>
+    <input class="form-control" asp-for="Blocos" />
+</div>
+<div class="form-group">
+    <label asp-for="Ativo"></label>
+    <input asp-for="Ativo" />
+</div>
+<div class="form-group">
+    <label asp-for="Tipo"></label>
+    <select class="form-control" asp-for="Tipo" asp-items="@Html.GetEnumSelectList<Tipo>()">
+        <option>Selecione</option>
+    </select>
+</div>
